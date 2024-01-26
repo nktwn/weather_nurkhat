@@ -5,7 +5,7 @@
 1. Clone the project from Github.
 2. Navigate to the project directory.
 3. Install dependencies using `npm install`.
-4. Start the local server using `node src/app.js`.
+4. Start the local server using `node src/api.js`.
 5. Open your browser and go to [http://localhost:3000/](http://localhost:3000/).
 
 **Note:** The server runs on port 3000. If you encounter any conflicts with other projects using the same port, consider changing the port in the server configuration.

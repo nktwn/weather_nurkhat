@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+<body>
+<header>
+    <div class="header-content">
+        <h1>Weather App</h1>
+        <img src="images/logo.png" alt="Weather App Logo" class="logo">
+    </div>
+</header>
+<form id="weatherForm">
+    <label for="cityInput">Enter City:</label>
+    <input type="text" id="cityInput" placeholder="E.g., London" required>
+    <button type="submit">Search</button>
+</form>
+<div id="weatherResult"></div>
+<div id="map" style="height: 400px;"></div>
+<footer>
+    Sergaziyev Nurkhat | SE-2204
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
